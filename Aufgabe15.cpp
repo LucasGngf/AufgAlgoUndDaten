@@ -1,11 +1,11 @@
 int T(int n) 
 { 
-    int trueck; 
+    int trek; 
     if (n<=1) 
         trueck=1; 
     else 
-        trueck=n*T(n-1)+n; 
-    return trueck; 
+        trek=n*T(n-1)+n; 
+    return trek; 
 } 
 
 
