@@ -21,7 +21,8 @@ int fibo_iterativ(int n)
 }   
 
 //iterative Form 2
-unsigned long fibo_iterativ_2 (int n) 
+
+long fibo_iterativ_2 (int n) 
 { 
     long i=1,a=1,b=1,z; 
     if (n==0) return 1; 
